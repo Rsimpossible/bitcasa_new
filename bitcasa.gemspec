@@ -25,4 +25,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "multi_json"
   spec.add_development_dependency "factory_girl"
   spec.add_development_dependency "rspec-kickstarter"
+  spec.add_development_dependency "simplecov"
+  spec.add_development_dependency "simplecov-rcov"
 end
