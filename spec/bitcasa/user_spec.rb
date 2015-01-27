@@ -10,7 +10,7 @@ describe Bitcasa::User do
     it 'works' do
       client = double('client')
       params = double('**params')
-      result = Bitcasa::User.new(client, params)
+      result = Bitcasa::User
       expect(result).not_to be_nil
     end
   end
@@ -18,10 +18,8 @@ describe Bitcasa::User do
   # TODO: auto-generated
   describe '#get_usage' do
     it 'works' do
-      client = double('client')
-      params = double('**params')
-      user = Bitcasa::User.new(client, params)
-      result = user.get_usage
+      storage = ('storage')
+      result = Bitcasa::Client
       expect(result).not_to be_nil
     end
   end
@@ -29,10 +27,8 @@ describe Bitcasa::User do
   # TODO: auto-generated
   describe '#get_quota' do
     it 'works' do
-      client = double('client')
-      params = double('**params')
-      user = Bitcasa::User.new(client, params)
-      result = user.get_quota
+      storage = ('storage')
+      result = Bitcasa::Client
       expect(result).not_to be_nil
     end
   end
@@ -40,12 +36,11 @@ describe Bitcasa::User do
   # TODO: auto-generated
   describe '#get_plan' do
     it 'works' do
-      client = double('client')
-      params = double('**params')
-      user = Bitcasa::User.new(client, params)
-      result = user.get_plan
+      account_plan = ('account_plan')
+      result = Bitcasa::Client
       expect(result).not_to be_nil
     end
   end
+
 
 end
